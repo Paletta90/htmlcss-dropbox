@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* Header */
+header{
+    position: fixed;
+    width: 100%;
+}
+.container-header{
+    padding: 20px 0;
+}
+.container-header ul li{
+    display: inline-block;
+    padding: 0 20px;
+    vertical-align: middle;
+}
+.container-header ul li a{
+    color: black;
+}
+.container-header a:hover{
+    text-decoration: underline;
+}
+.navbar-left{
+    float:left;
+}
+.navbar-right{
+    float: right;
+    padding-top: 2px;
+}
+

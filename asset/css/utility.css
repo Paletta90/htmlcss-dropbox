@@ -1,0 +1,31 @@
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.f-small{
+    font-size: 0.9em;
+}
+.f-medium{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+.f-big{
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+}
+.f-huge{
+    font-size: 3em;
+}
+.f-black{
+    color: black;
+}
+.bg-blue{
+    background-color: #0061ff;
+}
+.bg-lightblue{
+    background-color: #b4d0e7;
+}
+.label-x-y{
+    padding: 5px 20px;
+}
