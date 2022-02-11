@@ -9,6 +9,15 @@ ul{
 a{
     text-decoration: none;
 }
+span{
+    display: inline-block;
+}
+label{
+    padding-left: 5px;
+}
+input{
+    vertical-align: middle;
+}
 /* Header */
 header{
     position: fixed;
@@ -37,6 +46,11 @@ header{
     padding-top: 2px;
 }
 
+/* Section */
+.container-section{
+    width: 80%;
+    margin: 0 auto;
+}
 /* Prima Section */
 .container-firstsection{
     width: 90%;
@@ -52,8 +66,48 @@ header{
     float: right;
     width: 70%;
 }
-.block-left span{
+/* .block-left span{
     display: inline-block;
-}
+} */
 
 /* Seconda Section */
+.block-sx{
+    width: calc((100% / 3) - 10px);
+    margin-right: 10px;
+    border: 1px solid lightgray;
+    float: left;
+}
+.block-dx{
+    width:calc((100% / 3) - 10px);
+    margin-left: 10px;
+    border: 1px solid lightgray;
+    float: left;
+}
+.block-cx{
+    width: calc((100% / 3) - 10px);
+    margin: 0 5px 0 5px;
+    border: 1px solid lightgray;
+    float: left;
+}
+.container-column{
+    width: 80%;
+    margin: 20px auto;
+}
+.block-cx>p, .block-dx>p, .block-sx>p{
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+}
+.container-icon{
+    float: left;
+    width: 5%;
+}
+.container-icontext{
+    float: left;
+    width: calc(95% - 5px);
+    margin-left: 5px;
+}
+.border-grey{
+    width: 20%;
+    border: 1px solid lightgrey;
+}
+

@@ -3,12 +3,24 @@
     display: table;
     clear: both;
 }
+.f-center{
+    text-align: center;
+}
 /* Padding */
 .p-y-20{
     padding-bottom: 20px;
 }
 .p-y-50{
     padding-bottom: 50px;
+}
+.p-2y-10{
+    padding: 10px 0;
+}
+.p-2y-20{
+    padding: 20px 0;
+}
+.p-x-10{
+    padding-right: 10px;
 }
 /* Size Font */
 .f-small{
@@ -38,6 +50,12 @@
 }
 .f-white{
     color: white;
+}
+.f-lightblue{
+    color: #b4d0e7;
+}
+.f-blue{
+    color: #0061ff;
 }
 /* Background */
 .bg-blue{
