@@ -63,6 +63,7 @@
 }
 .bg-lightblue{
     background-color: #b4d0e7;
+    position: relative;
 }
 .bg-white{
     background-color: white;
