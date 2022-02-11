@@ -117,9 +117,6 @@ header{
 
 /* Terza Section */
 
-.bordergrey{
-    border: 1px solid lightgrey;
-}
 .container-thirdsection
 {
     width: 95%;
@@ -133,4 +130,10 @@ header{
     float: left;
     width: calc(70% - 20px);
     margin-right: 20px;
+}
+
+/* Quarta section */
+.block-50{
+    width: 50%;
+    float: left;
 }

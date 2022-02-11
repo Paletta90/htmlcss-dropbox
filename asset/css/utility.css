@@ -70,3 +70,10 @@
 .label-x-y{
     padding: 5px 20px;
 }
+/* Border */
+.bordergrey{
+    border: 1px solid lightgrey;
+}
+.borderblack{
+    border: 1px solid black;
+}
