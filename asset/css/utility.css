@@ -3,8 +3,19 @@
     display: table;
     clear: both;
 }
+/* Padding */
+.p-y-20{
+    padding-bottom: 20px;
+}
+.p-y-50{
+    padding-bottom: 50px;
+}
+/* Size Font */
 .f-small{
-    font-size: 0.9em;
+    font-size: 0.8em;
+}
+.f-normal{
+    font-family: 'Montserrat', sans-serif;
 }
 .f-medium{
     font-size: 1.5em;
@@ -15,16 +26,28 @@
     font-family: 'Montserrat', sans-serif;
 }
 .f-huge{
+    font-size: 4em;
+    font-family: 'Montserrat', sans-serif;
+}
+.icon-big{
     font-size: 3em;
 }
+/* Color Font */
 .f-black{
     color: black;
 }
+.f-white{
+    color: white;
+}
+/* Background */
 .bg-blue{
     background-color: #0061ff;
 }
 .bg-lightblue{
     background-color: #b4d0e7;
+}
+.bg-white{
+    background-color: white;
 }
 .label-x-y{
     padding: 5px 20px;

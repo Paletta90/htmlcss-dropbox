@@ -13,6 +13,7 @@ a{
 header{
     position: fixed;
     width: 100%;
+    /* background-color: yellow; */
 }
 .container-header{
     padding: 20px 0;
@@ -36,3 +37,23 @@ header{
     padding-top: 2px;
 }
 
+/* Prima Section */
+.container-firstsection{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.block-left{
+    float: left;
+    width: calc(30% - 20px);
+    margin-right: 20px;
+}
+.block-right{
+    float: right;
+    width: 70%;
+}
+.block-left span{
+    display: inline-block;
+}
+
+/* Seconda Section */
