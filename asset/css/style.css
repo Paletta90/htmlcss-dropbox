@@ -51,6 +51,10 @@ header{
     width: 80%;
     margin: 0 auto;
 }
+.title-bordergrey{
+    border: 1px solid lightgray;
+    padding-bottom:  10px 0;
+}
 /* Prima Section */
 .container-firstsection{
     width: 90%;
@@ -106,8 +110,27 @@ header{
     width: calc(95% - 5px);
     margin-left: 5px;
 }
-.border-grey{
+.bordergrey-short{
     width: 20%;
     border: 1px solid lightgrey;
 }
 
+/* Terza Section */
+
+.bordergrey{
+    border: 1px solid lightgrey;
+}
+.container-thirdsection
+{
+    width: 95%;
+    margin: 20px auto;
+}
+.block-button{
+    float: left;
+    width: 30%;
+}
+.block-text{
+    float: left;
+    width: calc(70% - 20px);
+    margin-right: 20px;
+}
