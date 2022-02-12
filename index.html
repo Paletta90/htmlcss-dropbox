@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/css/radio-button.css">
     <link rel="stylesheet" href="./asset/css/style.css">
     <link rel="stylesheet" href="./asset/css/utility.css">
     <title>Dropbox</title>
@@ -73,9 +74,12 @@
             <section class="p-y-50">
                 <h2 class="p-y-50 f-big">Trova il piano Dropbox Business che fa per te</h2>
                 <div class="p-y-20">
-                    <input type="radio" name="fatturazione" class=""><label for="" class="p-x-10">Fatturazione
-                        mensile</label>
-                    <input type="radio" name="fatturazione"><label for="">Fatturazione annuale</label>
+                    <!-- Primo input -->
+                    <input type="radio" id="month" name="Fatturazione" class="radio-custom" checked>
+                    <label for="month" class="radio-customlabel">Fatturazione mensile</label>
+                    <!-- Secondo input -->
+                    <input type="radio" id="year" name="Fatturazione" class="radio-custom">
+                    <label for="year" class="radio-customlabel">Fatturazione annuale</label>
                 </div>
                 <div class="clearfix">
                     <!-- Colonna di sinistra -->
@@ -323,17 +327,20 @@
 
             <!-- Quarta section -->
             <section class="p-y-50">
-                <div class="block-50">
-                    <img src="./asset/img/partner.png" alt="Due ragazzi che parlano" width="100%">
-                </div>
-                <div class="block-50">
-                    <div class="container-column">
-                        <h3 class="f-medium p-y-20">Entra in contatto con un partner Dropbox</h3>
-                        <p class="p-y-50">Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i
-                            servizi necessari
-                            per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione
-                            e supporto continui.</p>
-                        <span class="label-x-y borderblack"><a href="#">Trova un partner</a></span>
+                <div class="clearfix">
+                    <div class="block-50">
+                        <img src="./asset/img/partner.png" alt="Due ragazzi che parlano" width="100%">
+                    </div>
+                    <div class="block-50">
+                        <div class="container-column">
+                            <h3 class="f-medium p-y-20">Entra in contatto con un partner Dropbox</h3>
+                            <p class="p-y-50">Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i
+                                servizi necessari
+                                per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione,
+                                gestione
+                                e supporto continui.</p>
+                            <span class="label-x-y borderblack"><a href="#" class="f-black">Trova un partner</a></span>
+                        </div>
                     </div>
                 </div>
             </section>

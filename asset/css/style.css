@@ -128,7 +128,10 @@ header{
     width: 20%;
     border: 1px solid lightgrey;
 }
-
+/* input[type="radio"]{
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+}
 /* Terza Section */
 
 .container-thirdsection
