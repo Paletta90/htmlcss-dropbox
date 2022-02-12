@@ -22,6 +22,7 @@
 .p-x-10{
     padding-right: 10px;
 }
+
 /* Size Font */
 .f-small{
     font-size: 0.8em;
@@ -74,6 +75,9 @@
 /* Border */
 .bordergrey{
     border: 1px solid lightgrey;
+}
+.bordergrey-bottom{
+    border-bottom: 1px solid lightgray;
 }
 .borderblack{
     border: 1px solid black;
