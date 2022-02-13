@@ -33,7 +33,6 @@ header{
     position: fixed;
     width: 100%;
     z-index: 2;
-    /* background-color: yellow; */
 }
 .container-header{
     padding: 20px 0;
@@ -87,21 +86,24 @@ header{
     float: right;
     width: 70%;
 }
-
+/* Do il position relative alla prima section */
+main section:nth-child(1){
+    position: relative;
+}
 /* Seconda Section */
 .block-sx{
-    width: calc((100% / 3) - 10px);
-    margin-right: 10px;
+    width: calc((100% / 3) - 20px);
+    margin-right: 20px;
     float: left;
 }
 .block-dx{
-    width:calc((100% / 3) - 10px);
-    margin-left: 10px;
+    width:calc((100% / 3) - 20px);
+    margin-left: 20px;
     float: left;
 }
 .block-cx{
-    width: calc((100% / 3) - 10px);
-    margin: 0 5px 0 5px;
+    width: calc((100% / 3) - 20px);
+    margin: 0 10px 0 10px;
     float: left;
 }
 .container-column{
@@ -117,10 +119,7 @@ header{
     width: calc(95% - 5px);
     margin-left: 5px;
 }
-.bordergrey-short{
-    width: 20%;
-    border: 1px solid lightgrey;
-}
+
 /* input[type="radio"]{
     position: absolute;
     clip: rect(1px, 1px, 1px, 1px);
@@ -146,6 +145,53 @@ header{
 .block-50{
     width: 50%;
     float: left;
+    /* position: relative; */
 }
 
-/* Quinta Section */
+/* Sesta Section */
+.block-25{
+    width: 25%;
+    float: left;
+}
+.row{
+    width:100%;
+    height: 50%;
+}
+.column{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+    padding: 25% 0;
+}
+.column>img{
+    position: absolute;
+    filter: brightness(0) invert(1);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Funziona solo se imposto altezza fissa */
+.bg-lightgrey>.block-50{
+    overflow-y: auto;
+}
+.box-inside{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.box-inside>img{
+    position: absolute;
+    filter: brightness(0) invert(1);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.block-30mx{
+    width: 30%;
+    margin-left: 20%;
+    float: left;
+}
