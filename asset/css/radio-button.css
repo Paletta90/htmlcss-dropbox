@@ -1,12 +1,11 @@
 input[type='radio']{
-    /* display: none; */
-    position: absolute;
-    clip: rect(1px, 1px, 1px, 1px);
+    display: none;
 }
 
 .radio-custom, .radio-customlabel{
     vertical-align: middle;
     padding-right: 20px;
+    cursor: pointer;
     /* margin: 5px; */
 }
 
