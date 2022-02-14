@@ -81,6 +81,10 @@ header{
     float: left;
     width: 70%;
 }
+/* Margine negativo per far uscire fuori l'immagine */
+main section:nth-child(1) > .container-firstsection > .clearfix{
+    margin-bottom: -100px;
+}
 /* Seconda Section */
 .block-sx{
     width: calc((100% / 3) - 20px);
@@ -157,15 +161,17 @@ header{
     padding: 25% 0;
 }
 .column>img{
+    width: 50%;
     position: absolute;
     filter: brightness(0) invert(1);
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
-/* .bg-lightgrey>.block-50{
+.bg-lightgrey>.block-50{
+    
     overflow-y: auto;
-} */
+}
 .box-inside{
     width: 90%;
     height: 90%;
