@@ -168,25 +168,16 @@ main section:nth-child(1) > .container-firstsection > .clearfix{
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+.outline-lightgreen{
+    outline: 10px solid #d0e9cd;
+    outline-offset: -10px;
+}
 .bg-lightgrey>.block-50{
     
     overflow-y: auto;
 }
-.box-inside{
-    width: 90%;
-    height: 90%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-.box-inside>img{
-    position: absolute;
-    filter: brightness(0) invert(1);
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
+
 .block-30mx{
     width: 30%;
     margin-left: 20%;
