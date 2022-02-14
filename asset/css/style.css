@@ -101,19 +101,20 @@ header{
     width: 80%;
     margin: 20px auto;
 }
-.container-icon{
-    float: left;
-    width: 5%;
-}
-.container-icontext{
-    float: left;
-    width: calc(95% - 5px);
-    margin-left: 5px;
-}
+
 .container-section section:nth-child(1) .block-sx,
 .container-section section:nth-child(1) .block-cx,
 .container-section section:nth-child(1) .block-dx{
     min-height: 1023px;
+}
+.container-section section:nth-child(1) li{
+    padding-bottom: 20px;
+}
+.container-section section:nth-child(1) li::marker{
+    content: "\f00c";
+    font-family: "FontAwesome";
+    color: #0061ff;
+    vertical-align: middle;
 }
 
 /* Terza Section */
