@@ -112,13 +112,54 @@ main section:nth-child(1) > .container-firstsection > .clearfix{
     min-height: 1023px;
 }
 .container-section section:nth-child(1) li{
+    padding-left: 5px;
     padding-bottom: 20px;
+    margin-left: 1em;
 }
-.container-section section:nth-child(1) li::marker{
+.list-sx li:nth-child(1)::marker{
+    content: "\f007";
+    /* font-family: "FontAwesome"; */
+    font: var(--fa-font-regular);
+}
+.list-sx li:nth-child(2)::marker{
+    content: "\f07b";
+    font: var(--fa-font-regular);
+}
+.list-sx li:nth-child(3)::marker{
+    content: "\f304";
+    font-family: "FontAwesome";
+}
+.list-cx li:nth-child(1)::marker{
+    content: "\f234";
+    /* font-family: "FontAwesome"; */
+    font: var(--fa-font-solid);
+}
+.list-cx li:nth-child(2)::marker{
+    content: "\f07b";
+    font: var(--fa-font-regular);
+}
+.list-cx li:nth-child(3)::marker{
+    content: "\f118";
+    font: var(--fa-font-regular);
+}
+.list-dx li:nth-child(1)::marker{
+    content: "\f234";
+    /* font-family: "FontAwesome"; */
+    font: var(--fa-font-solid);
+}
+.list-dx li:nth-child(2)::marker{
+    content: "\f118";
+    font: var(--fa-font-regular);
+}
+.list-dx li:nth-child(3)::marker{
+    content: "\f304";
+    font-family: "FontAwesome";
+}
+/* Icona del Check */
+.list-puntisalienti li::marker{
     content: "\f00c";
     font-family: "FontAwesome";
     color: #0061ff;
-    vertical-align: middle;
 }
 
 /* Terza Section */
