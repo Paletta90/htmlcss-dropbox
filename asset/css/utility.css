@@ -13,6 +13,9 @@
 .p-y-50{
     padding-bottom: 50px;
 }
+.p-y-top-100{
+    padding-top: 100px;
+}
 .p-2y-10{
     padding: 10px 0;
 }
@@ -99,6 +102,10 @@
 .bg-lightgrey{
     background-color: #f5f5f5;
 }
+.bg-black{
+    background-color: black;
+}
+/* Label */
 .label-x-y{
     padding: 5px 20px;
 }
@@ -115,4 +122,8 @@
 .bordergrey-short{
     width: 20%;
     border: 1px solid lightgrey;
+}
+.bordergrey-short-5{
+    width: 8%;
+    border: 0.5px solid lightgrey;
 }

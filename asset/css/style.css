@@ -69,8 +69,7 @@ header{
 .container-firstsection{
     width: 90%;
     margin: 0 auto;
-    padding-top: 100px;
-    /* position: absolute; */
+    /* padding-top: 100px; */
 }
 
 .block-left{
@@ -194,4 +193,21 @@ main > section:nth-child(4) > .container-section > div > p{
 
 main > section:nth-child(4) > .container-section > div:hover p{
     display: block;
+}
+
+/* Footer */
+
+.block-20{
+    float: left;
+    width: calc(20% - 20px);
+    margin-right: 20px;
+}
+footer li{
+    padding-bottom: 10px;
+}
+footer a, footer h3{
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
 }
