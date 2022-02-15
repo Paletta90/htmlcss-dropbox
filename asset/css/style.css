@@ -24,7 +24,9 @@ input{
     opacity: 0.5;
 }
 .container-header a:not(.bg-blue):hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    padding-bottom: 20px;
+    border-bottom: 5px solid blue;
 }
 .f-blue:hover{
     text-decoration: underline;
@@ -53,7 +55,9 @@ header{
 }
 .navbar-right{
     float: right;
-    /* padding-top: 2px; */
+}
+header .navbar-right{
+    padding-top: 4px;
 }
 
 /* Section */
@@ -182,15 +186,35 @@ main section:nth-child(1) > .container-firstsection > .clearfix{
 .block-50{
     width: 50%;
     float: left;
-    /* position: relative; */
 }
 
 /* Sesta Section */
 .block-25{
     width: 25%;
     float: left;
+    
 }
 .row{
+    width: 100%;
+}
+.container-square{
+    width: 30vw;
+    height: 30vw;
+    float: left;
+}
+.container-cx{
+    width: calc(100% - 60vw);
+    height: 30vw;
+    float: left;
+    overflow-y: auto;
+}
+.square{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    background-color: red;
+}
+
+/* .row{
     width:100%;
     height: 50%;
 }
@@ -208,29 +232,28 @@ main section:nth-child(1) > .container-firstsection > .clearfix{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-}
+} */
 
 .outline-lightgreen{
     outline: 10px solid #d0e9cd;
     outline-offset: -10px;
 }
-.bg-lightgrey>.block-50{
-    
-    overflow-y: auto;
-}
+
 
 .block-30mx{
     width: 30%;
     margin-left: 20%;
     float: left;
 }
-
-/* Settima Section */
-main > section:nth-child(4) > .container-section > div > p{
+main > section:nth-child(3) .block-50{
+    overflow-y: auto;
+}
+/* Ottava Section */
+main > section:nth-child(5) > .container-section > div > p{
     display: none;
 }
 
-main > section:nth-child(4) > .container-section > div:hover p{
+main > section:nth-child(5) > .container-section > div:hover p{
     display: block;
 }
 
