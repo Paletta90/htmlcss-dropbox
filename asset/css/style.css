@@ -265,3 +265,24 @@ footer a, footer h3{
 footer a:hover{
     text-decoration: underline;
 }
+.dropdwon{
+    position: relative;
+    display: inline-block;
+}
+.dropdwon-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    margin-left: 15px;
+}
+.dropdwon-content a{
+    display: block;
+    background-color: lightgrey;
+    border: 0.5px solid black;
+    color: black;
+    font-size: 0.8em;
+    padding: 4px 6px;
+}
+.dropdwon:hover .dropdwon-content{
+    display: block;
+}
